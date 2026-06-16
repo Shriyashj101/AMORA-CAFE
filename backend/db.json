@@ -1,0 +1,599 @@
+{
+  "User": [
+    {
+      "name": "Cafe Owner",
+      "loginId": "admin",
+      "password": "$2b$10$V2wyy.UUBkDXgknP7j0FreRdyTb26fNV3rqtrDyeCsI7gUby6jZDa",
+      "role": "admin",
+      "_id": "ku3v2oxcy3q15e7ev9",
+      "createdAt": "2026-06-16T06:14:26.373Z",
+      "updatedAt": "2026-06-16T06:14:26.376Z"
+    },
+    {
+      "name": "Head Chef",
+      "loginId": "cook1",
+      "password": "$2b$10$bfzR9egfMt0Q1JTPBZ7sI.EifXJP9P3CK4YcskshwlapnrKqWtwIq",
+      "role": "cook",
+      "_id": "mq95awawk7qyi2khp4",
+      "createdAt": "2026-06-16T06:14:26.441Z",
+      "updatedAt": "2026-06-16T06:14:26.441Z"
+    },
+    {
+      "name": "yash",
+      "loginId": "cook2",
+      "password": "$2b$10$axYM0QeQC9/wyzl3mG9VsufS869EuqtZVNkqpSduKhXl67JIRTw/q",
+      "role": "cook",
+      "_id": "40wytbukh8jtc1kvaw",
+      "createdAt": "2026-06-16T06:48:44.152Z",
+      "updatedAt": "2026-06-16T06:48:44.152Z"
+    }
+  ],
+  "Product": [
+    {
+      "name": "Veg Burger",
+      "image": "/images/sample.jpg",
+      "category": "Meals",
+      "description": "Delicious vegetable patty with fresh lettuce, tomato, and signature burger sauce.",
+      "price": 120,
+      "isSpecial": false,
+      "popularity": 16,
+      "branch": "Main Branch",
+      "_id": "sxh812gl5b2h4lqubg",
+      "createdAt": "2026-06-16T06:14:26.443Z",
+      "updatedAt": "2026-06-16T06:20:28.705Z"
+    },
+    {
+      "name": "Cheese Burger",
+      "image": "/images/sample.jpg",
+      "category": "Meals",
+      "description": "Juicy patty loaded with double melted cheese, pickles, and grilled onions.",
+      "price": 150,
+      "isSpecial": true,
+      "popularity": 28,
+      "branch": "Main Branch",
+      "_id": "6wl7pj1n95imwtkxod",
+      "createdAt": "2026-06-16T06:14:26.444Z",
+      "updatedAt": "2026-06-16T06:20:28.700Z"
+    },
+    {
+      "name": "Sandwich",
+      "image": "/images/sample.jpg",
+      "category": "Meals",
+      "description": "Toasted club sandwich packed with sliced cucumber, tomatoes, spinach, and cheese.",
+      "price": 90,
+      "isSpecial": false,
+      "popularity": 8,
+      "branch": "Main Branch",
+      "_id": "ne5z5lzpx7wib7w1sj",
+      "createdAt": "2026-06-16T06:14:26.446Z",
+      "updatedAt": "2026-06-16T06:14:26.446Z"
+    },
+    {
+      "name": "Pasta",
+      "image": "/images/sample.jpg",
+      "category": "Meals",
+      "description": "Creamy white sauce penne pasta tossed with bell peppers and garlic herbs.",
+      "price": 180,
+      "isSpecial": true,
+      "popularity": 21,
+      "branch": "Main Branch",
+      "_id": "r2eksec65gcjveuqeb",
+      "createdAt": "2026-06-16T06:14:26.448Z",
+      "updatedAt": "2026-06-16T06:45:37.475Z"
+    },
+    {
+      "name": "Pizza",
+      "image": "/images/sample.jpg",
+      "category": "Meals",
+      "description": "8-inch thin crust garden fresh pizza with olives, capsicum, and premium mozzarella.",
+      "price": 240,
+      "isSpecial": false,
+      "popularity": 12,
+      "branch": "Main Branch",
+      "_id": "3k9zfx08yj2k5jp85o",
+      "createdAt": "2026-06-16T06:14:26.449Z",
+      "updatedAt": "2026-06-16T06:14:26.449Z"
+    },
+    {
+      "name": "Espresso",
+      "image": "/images/sample.jpg",
+      "category": "Coffees",
+      "description": "Intense, concentrated shot of pure dark roasted premium Arabica beans.",
+      "price": 80,
+      "isSpecial": false,
+      "popularity": 40,
+      "branch": "Main Branch",
+      "_id": "r4uskjuoerau1xwgsp",
+      "createdAt": "2026-06-16T06:14:26.450Z",
+      "updatedAt": "2026-06-16T06:14:26.450Z"
+    },
+    {
+      "name": "Cappuccino",
+      "image": "/images/sample.jpg",
+      "category": "Coffees",
+      "description": "Balanced espresso shot topped with equal parts steamed milk and creamy foam.",
+      "price": 110,
+      "isSpecial": false,
+      "popularity": 60,
+      "branch": "Main Branch",
+      "_id": "ry0e2g77fqljiet5a4",
+      "createdAt": "2026-06-16T06:14:26.452Z",
+      "updatedAt": "2026-06-16T06:14:26.452Z"
+    },
+    {
+      "name": "Latte",
+      "image": "/images/sample.jpg",
+      "category": "Coffees",
+      "description": "Smooth, milky espresso drink made with steamed milk and a light layer of foam.",
+      "price": 120,
+      "isSpecial": true,
+      "popularity": 76,
+      "branch": "Main Branch",
+      "_id": "3h3dbw550sq3rv2jve",
+      "createdAt": "2026-06-16T06:14:26.453Z",
+      "updatedAt": "2026-06-16T06:17:01.091Z"
+    },
+    {
+      "name": "Mocha",
+      "image": "/images/sample.jpg",
+      "category": "Coffees",
+      "description": "Rich espresso blended with dark hot chocolate syrup and steamed milk foam.",
+      "price": 130,
+      "isSpecial": false,
+      "popularity": 32,
+      "branch": "Main Branch",
+      "_id": "551h2fgnbi8hoaksrc",
+      "createdAt": "2026-06-16T06:14:26.454Z",
+      "updatedAt": "2026-06-16T06:14:26.454Z"
+    },
+    {
+      "name": "Americano",
+      "image": "/images/sample.jpg",
+      "category": "Coffees",
+      "description": "Espresso shots diluted with filtered hot water for a smooth black coffee experience.",
+      "price": 90,
+      "isSpecial": false,
+      "popularity": 18,
+      "branch": "Main Branch",
+      "_id": "umxb9wd3eer6xp3t4r",
+      "createdAt": "2026-06-16T06:14:26.455Z",
+      "updatedAt": "2026-06-16T06:14:26.455Z"
+    },
+    {
+      "name": "Coke Can",
+      "image": "/images/sample.jpg",
+      "category": "Cold Drinks",
+      "description": "Chilled 300ml Coca-Cola can.",
+      "price": 40,
+      "isSpecial": false,
+      "popularity": 51,
+      "branch": "Main Branch",
+      "_id": "mu9w5o7mlz5gj74isf",
+      "createdAt": "2026-06-16T06:14:26.456Z",
+      "updatedAt": "2026-06-16T06:41:35.101Z"
+    },
+    {
+      "name": "Sprite Can",
+      "image": "/images/sample.jpg",
+      "category": "Cold Drinks",
+      "description": "Chilled 300ml Sprite can.",
+      "price": 40,
+      "isSpecial": false,
+      "popularity": 31,
+      "branch": "Main Branch",
+      "_id": "o5x7ktbd2gnthlmz85",
+      "createdAt": "2026-06-16T06:14:26.458Z",
+      "updatedAt": "2026-06-16T06:20:28.711Z"
+    },
+    {
+      "name": "Cold Coffee",
+      "image": "/images/sample.jpg",
+      "category": "Cold Drinks",
+      "description": "Blended espresso, chilled milk, and vanilla ice cream topped with chocolate powder.",
+      "price": 120,
+      "isSpecial": true,
+      "popularity": 96,
+      "branch": "Main Branch",
+      "_id": "tb5ack5y4a4gh44ig3",
+      "createdAt": "2026-06-16T06:14:26.459Z",
+      "updatedAt": "2026-06-16T06:20:28.698Z"
+    },
+    {
+      "name": "Lemon Soda",
+      "image": "/images/sample.jpg",
+      "category": "Cold Drinks",
+      "description": "Thirst-quenching sweet and salty fizzy lemon juice topped with fresh mint.",
+      "price": 70,
+      "isSpecial": false,
+      "popularity": 23,
+      "branch": "Main Branch",
+      "_id": "wbrrt246v5kz3h3t3r",
+      "createdAt": "2026-06-16T06:14:26.460Z",
+      "updatedAt": "2026-06-16T06:20:28.708Z"
+    },
+    {
+      "name": "French Fries",
+      "image": "/images/sample.jpg",
+      "category": "Snacks",
+      "description": "Crispy, deep-fried golden potato strips lightly seasoned with sea salt.",
+      "price": 80,
+      "isSpecial": false,
+      "popularity": 46,
+      "branch": "Main Branch",
+      "_id": "qyri3adx2vdafkjno6",
+      "createdAt": "2026-06-16T06:14:26.461Z",
+      "updatedAt": "2026-06-16T06:41:35.095Z"
+    },
+    {
+      "name": "Garlic Bread",
+      "image": "/images/sample.jpg",
+      "category": "Snacks",
+      "description": "Four slices of toasted baguette brushed with garlic butter and parsley.",
+      "price": 100,
+      "isSpecial": false,
+      "popularity": 15,
+      "branch": "Main Branch",
+      "_id": "m9i66iq7ms79e55rze",
+      "createdAt": "2026-06-16T06:14:26.462Z",
+      "updatedAt": "2026-06-16T06:14:26.462Z"
+    },
+    {
+      "name": "Spring Rolls",
+      "image": "/images/sample.jpg",
+      "category": "Snacks",
+      "description": "Crispy fried sheets filled with julienne vegetables, served with sweet chilli sauce.",
+      "price": 110,
+      "isSpecial": false,
+      "popularity": 20,
+      "branch": "Main Branch",
+      "_id": "sqqotxy67hdyyhyuzh",
+      "createdAt": "2026-06-16T06:14:26.463Z",
+      "updatedAt": "2026-06-16T06:14:26.463Z"
+    },
+    {
+      "name": "Fudge Brownie",
+      "image": "/images/sample.jpg",
+      "category": "Desserts",
+      "description": "Warm, gooey chocolate fudge brownie drizzled with hot chocolate syrup.",
+      "price": 110,
+      "isSpecial": true,
+      "popularity": 56,
+      "branch": "Main Branch",
+      "_id": "i4x0fhvp6nih1dwkqm",
+      "createdAt": "2026-06-16T06:14:26.464Z",
+      "updatedAt": "2026-06-16T06:20:28.713Z"
+    },
+    {
+      "name": "Cheesecake",
+      "image": "/images/sample.jpg",
+      "category": "Desserts",
+      "description": "Classic New York style baked cheesecake with a sweet blueberry glaze overlay.",
+      "price": 160,
+      "isSpecial": false,
+      "popularity": 38,
+      "branch": "Main Branch",
+      "_id": "hszqmkqfj2u7h5s0db",
+      "createdAt": "2026-06-16T06:14:26.465Z",
+      "updatedAt": "2026-06-16T06:14:26.465Z"
+    },
+    {
+      "name": "Fruit Salad Bowl",
+      "image": "/images/sample.jpg",
+      "category": "Healthy Items",
+      "description": "A refreshing bowl of sliced seasonal fruits (apple, papaya, banana, grapes).",
+      "price": 130,
+      "isSpecial": false,
+      "popularity": 10,
+      "branch": "Main Branch",
+      "_id": "q76z98d56ct1hibijo",
+      "createdAt": "2026-06-16T06:14:26.467Z",
+      "updatedAt": "2026-06-16T06:14:26.467Z"
+    },
+    {
+      "name": "Berry Smoothie",
+      "image": "/images/sample.jpg",
+      "category": "Healthy Items",
+      "description": "Antioxidant rich blend of blueberries, strawberries, yogurt, and honey.",
+      "price": 140,
+      "isSpecial": true,
+      "popularity": 28,
+      "branch": "Main Branch",
+      "_id": "hg38f3uos2ly5rpevz",
+      "createdAt": "2026-06-16T06:14:26.468Z",
+      "updatedAt": "2026-06-16T06:14:26.468Z"
+    }
+  ],
+  "Order": [
+    {
+      "orderId": "ORD-2026-44646",
+      "tableNumber": "Table 15",
+      "orderItems": [
+        {
+          "product": "6wl7pj1n95imwtkxod",
+          "name": "Cheese Burger",
+          "price": 150,
+          "qty": 2
+        },
+        {
+          "product": "3h3dbw550sq3rv2jve",
+          "name": "Latte",
+          "price": 120,
+          "qty": 1
+        }
+      ],
+      "subtotal": 420,
+      "gst": 18.9,
+      "serviceCharge": 7.56,
+      "discount": 42,
+      "grandTotal": 404.46,
+      "status": "Served",
+      "customerName": "Integration Tester",
+      "customerMobile": "9988776655",
+      "couponCode": "AROMA10",
+      "pointsEarned": 40,
+      "branch": "Main Branch",
+      "timestamp": 1781590621086,
+      "_id": "fd5vnvmrq4dghw4eyn",
+      "createdAt": "2026-06-16T06:17:01.087Z",
+      "updatedAt": "2026-06-16T06:47:36.311Z"
+    },
+    {
+      "orderId": "ORD-2026-47315",
+      "tableNumber": "Table 5",
+      "orderItems": [
+        {
+          "product": "tb5ack5y4a4gh44ig3",
+          "name": "Cold Coffee",
+          "price": 120,
+          "image": "/images/sample.jpg",
+          "qty": 1
+        },
+        {
+          "product": "6wl7pj1n95imwtkxod",
+          "name": "Cheese Burger",
+          "price": 150,
+          "image": "/images/sample.jpg",
+          "qty": 1
+        },
+        {
+          "product": "r2eksec65gcjveuqeb",
+          "name": "Pasta",
+          "price": 180,
+          "image": "/images/sample.jpg",
+          "qty": 1
+        },
+        {
+          "product": "sxh812gl5b2h4lqubg",
+          "name": "Veg Burger",
+          "price": 120,
+          "image": "/images/sample.jpg",
+          "qty": 1
+        },
+        {
+          "product": "wbrrt246v5kz3h3t3r",
+          "name": "Lemon Soda",
+          "price": 70,
+          "image": "/images/sample.jpg",
+          "qty": 1
+        },
+        {
+          "product": "o5x7ktbd2gnthlmz85",
+          "name": "Sprite Can",
+          "price": 40,
+          "image": "/images/sample.jpg",
+          "qty": 1
+        },
+        {
+          "product": "i4x0fhvp6nih1dwkqm",
+          "name": "Fudge Brownie",
+          "price": 110,
+          "image": "/images/sample.jpg",
+          "qty": 1
+        }
+      ],
+      "subtotal": 790,
+      "gst": 39.5,
+      "serviceCharge": 15.8,
+      "discount": 0,
+      "grandTotal": 845.3,
+      "status": "Served",
+      "customerName": "shreeyash ",
+      "customerMobile": "9322232707",
+      "couponCode": "",
+      "pointsEarned": 84,
+      "branch": "Main Branch",
+      "timestamp": 1781590828695,
+      "_id": "jzby4e6802fi0jznc0",
+      "createdAt": "2026-06-16T06:20:28.695Z",
+      "updatedAt": "2026-06-16T06:47:34.460Z"
+    },
+    {
+      "orderId": "ORD-2026-80131",
+      "tableNumber": "Table 2",
+      "orderItems": [
+        {
+          "product": "qyri3adx2vdafkjno6",
+          "name": "French Fries",
+          "price": 80,
+          "image": "/images/sample.jpg",
+          "qty": 1
+        },
+        {
+          "product": "mu9w5o7mlz5gj74isf",
+          "name": "Coke Can",
+          "price": 40,
+          "image": "/images/sample.jpg",
+          "qty": 1
+        }
+      ],
+      "subtotal": 120,
+      "gst": 1.2,
+      "serviceCharge": 0.48,
+      "discount": 96,
+      "grandTotal": 25.68,
+      "status": "Served",
+      "customerName": "shreeyash ",
+      "customerMobile": "9322232707",
+      "couponCode": "AROMA10",
+      "pointsEarned": 2,
+      "branch": "Main Branch",
+      "timestamp": 1781592095086,
+      "_id": "b4ow5xaa3oc9lw5rnf",
+      "createdAt": "2026-06-16T06:41:35.088Z",
+      "updatedAt": "2026-06-16T06:47:32.177Z"
+    },
+    {
+      "orderId": "ORD-2026-17495",
+      "tableNumber": "Table 8",
+      "orderItems": [
+        {
+          "product": "r2eksec65gcjveuqeb",
+          "name": "Pasta",
+          "price": 180,
+          "image": "/images/sample.jpg",
+          "qty": 1
+        }
+      ],
+      "subtotal": 180,
+      "gst": 8.1,
+      "serviceCharge": 3.24,
+      "discount": 18,
+      "grandTotal": 173.34,
+      "status": "Served",
+      "customerName": "",
+      "customerMobile": "8698790407",
+      "couponCode": "AROMA10",
+      "pointsEarned": 17,
+      "branch": "Main Branch",
+      "timestamp": 1781592337469,
+      "_id": "o96u6wrpxbvy3bhf4u",
+      "createdAt": "2026-06-16T06:45:37.470Z",
+      "updatedAt": "2026-06-16T06:47:30.459Z"
+    }
+  ],
+  "Inventory": [
+    {
+      "name": "Coffee Beans",
+      "stock": 15,
+      "unit": "kg",
+      "minThreshold": 3,
+      "branch": "Main Branch",
+      "_id": "jesotvkd0f2k62dmdg",
+      "createdAt": "2026-06-16T06:14:26.470Z",
+      "updatedAt": "2026-06-16T06:14:26.470Z"
+    },
+    {
+      "name": "Milk",
+      "stock": 8,
+      "unit": "liters",
+      "minThreshold": 10,
+      "branch": "Main Branch",
+      "_id": "k6ov3zogknorkrsyk0",
+      "createdAt": "2026-06-16T06:14:26.471Z",
+      "updatedAt": "2026-06-16T06:14:26.471Z"
+    },
+    {
+      "name": "Sugar",
+      "stock": 12,
+      "unit": "kg",
+      "minThreshold": 2,
+      "branch": "Main Branch",
+      "_id": "310dkzqa4w5rk0auva",
+      "createdAt": "2026-06-16T06:14:26.472Z",
+      "updatedAt": "2026-06-16T06:14:26.472Z"
+    },
+    {
+      "name": "Cold Drinks",
+      "stock": 45,
+      "unit": "units",
+      "minThreshold": 10,
+      "branch": "Main Branch",
+      "_id": "bzwr9hffbhcjta4pem",
+      "createdAt": "2026-06-16T06:14:26.473Z",
+      "updatedAt": "2026-06-16T06:14:26.473Z"
+    },
+    {
+      "name": "Bread",
+      "stock": 3,
+      "unit": "packs",
+      "minThreshold": 5,
+      "branch": "Main Branch",
+      "_id": "ob55q2bu7na09ttto7",
+      "createdAt": "2026-06-16T06:14:26.474Z",
+      "updatedAt": "2026-06-16T06:14:26.474Z"
+    },
+    {
+      "name": "Vegetables",
+      "stock": 20,
+      "unit": "kg",
+      "minThreshold": 5,
+      "branch": "Main Branch",
+      "_id": "wc9s8fax1m7eihei3c",
+      "createdAt": "2026-06-16T06:14:26.475Z",
+      "updatedAt": "2026-06-16T06:14:26.475Z"
+    }
+  ],
+  "Coupon": [
+    {
+      "code": "AROMA10",
+      "discountPercentage": 10,
+      "isActive": true,
+      "_id": "yei0v0j5gn55u0mmtg",
+      "createdAt": "2026-06-16T06:14:26.476Z",
+      "updatedAt": "2026-06-16T06:14:26.476Z"
+    },
+    {
+      "code": "AROMA20",
+      "discountPercentage": 20,
+      "isActive": true,
+      "_id": "e3bg79kxaihgr6krue",
+      "createdAt": "2026-06-16T06:14:26.478Z",
+      "updatedAt": "2026-06-16T06:14:26.478Z"
+    },
+    {
+      "code": "WELCOME30",
+      "discountPercentage": 30,
+      "isActive": true,
+      "_id": "2axc7i7j8h74dnlqth",
+      "createdAt": "2026-06-16T06:14:26.479Z",
+      "updatedAt": "2026-06-16T06:14:26.479Z"
+    }
+  ],
+  "Feedback": [
+    {
+      "orderId": "ORD-2026-44646",
+      "rating": 5,
+      "review": "Exceptional service and quick preparation! The Latte was smooth and the burger was rich.",
+      "date": 1781590621445,
+      "_id": "aslx7ez2aqa5vk0utf",
+      "createdAt": "2026-06-16T06:17:01.446Z",
+      "updatedAt": "2026-06-16T06:17:01.446Z"
+    }
+  ],
+  "Customer": [
+    {
+      "name": "Integration Tester",
+      "mobileNumber": "9988776655",
+      "loyaltyPoints": 40,
+      "_id": "sb1tcyipku16op5csy",
+      "createdAt": "2026-06-16T06:17:01.083Z",
+      "updatedAt": "2026-06-16T06:17:01.085Z"
+    },
+    {
+      "name": "shreeyash ",
+      "mobileNumber": "9322232707",
+      "loyaltyPoints": 2,
+      "_id": "2ahekxfobutx0x97v6",
+      "createdAt": "2026-06-16T06:20:28.691Z",
+      "updatedAt": "2026-06-16T06:41:35.082Z"
+    },
+    {
+      "name": "Valued Customer",
+      "mobileNumber": "8698790407",
+      "loyaltyPoints": 17,
+      "_id": "l7npy01wq3rztb29pb",
+      "createdAt": "2026-06-16T06:45:37.463Z",
+      "updatedAt": "2026-06-16T06:45:37.467Z"
+    }
+  ]
+}
