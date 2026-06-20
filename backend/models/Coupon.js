@@ -1,4 +1,4 @@
-import mongoose from '../utils/mockMongoose.js';
+import mongoose from 'mongoose';
 
 const couponSchema = mongoose.Schema(
   {

@@ -7,7 +7,7 @@ import {
   FiTrash2, FiPlus, FiEdit, FiSearch, FiCalendar, FiDownload, FiAlertTriangle
 } from 'react-icons/fi';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = import.meta.env.VITE_API_URL || "https://amora-cafe-backend.onrender.com/api";
 
 const AdminDashboard = () => {
   // Navigation tabs: 'dashboard' | 'orders' | 'menu' | 'employees' | 'inventory' | 'coupons' | 'reports' | 'insights'

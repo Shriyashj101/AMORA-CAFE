@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import { FiShoppingCart, FiSearch, FiCheckCircle, FiClock, FiStar, FiChevronRight, FiMinus, FiPlus, FiTrash2, FiShare2 } from 'react-icons/fi';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = import.meta.env.VITE_API_URL || "https://amora-cafe-backend.onrender.com/api";
 
 const HomePage = () => {
   // Menu and State

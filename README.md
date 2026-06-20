@@ -24,7 +24,7 @@ cd backend
 npm install
 npm run dev
 ```
-The API server will run on http://localhost:5000.
+The API server will run on "https://amora-cafe-backend.onrender.com"
 
 ### 3. Frontend Setup
 ```bash
